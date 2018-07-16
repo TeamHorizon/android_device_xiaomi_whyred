@@ -36,6 +36,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 5 Pro
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xenonhd.maintainer=MiguelNdeCarvalho \
+    ro.xenonhd.donate="https://www.paypal.me/MiguelNdeCarvalho"
+
 TARGET_VENDOR_PRODUCT_NAME := whyred
 TARGET_VENDOR_DEVICE_NAME := whyred
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=whyred PRODUCT_NAME=whyred
@@ -43,3 +47,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys"
 BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
+
