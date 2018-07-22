@@ -54,6 +54,7 @@ TARGET_KERNEL_CONFIG := codex_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 7.0.2
+TARGET_KERNEL_CLANG_PATH := /home/builds/sources/Clang/bin/
 
 # Partitions
 BOARD_HAS_LARGE_FILESYSTEM := true
