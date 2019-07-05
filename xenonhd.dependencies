@@ -4,7 +4,7 @@
    "target_path": "vendor/xiaomi/whyred"
  },
  {
-   "repository": "android_kernel_xiaomi_sdm660",
+   "repository": "akhilnarang/whyred",
    "target_path": "kernel/xiaomi/sdm660"
  },
  {
